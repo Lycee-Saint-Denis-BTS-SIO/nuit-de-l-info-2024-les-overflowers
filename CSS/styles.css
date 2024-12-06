@@ -1,0 +1,17 @@
+#cookie {
+  position: absolute; 
+  width: 150px;
+  height: 150px;
+}
+
+#clickerContainer {
+  width: 100%;
+  height: 400px;
+  position: relative; 
+  overflow: hidden; 
+}
+
+#title_cooker
+{
+    text-align: center;
+} 
