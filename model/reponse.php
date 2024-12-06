@@ -1,15 +1,17 @@
 <?php
 
-class Reponse {
+class Anwser {
 
     private int $id;
     private string $lib;
+    private bool $estVraie;
     private Question $lesQuestions;
 
-    public function __construct(int $id, string $lib, array $lesQuestions = []) {
+    public function __construct(int $id, string $lib, bool $estVraie, array $lesQuestions = []) {
         $this->id = $id;
         $this->lib = $lib;
         $this->lesQuestions = $lesQuestions;
+        $this->estVraie -> $estVraie;
     }
 
     public function getId(): int {
@@ -19,6 +21,11 @@ class Reponse {
     public function getLib(): string {
         return $this->lib;
     }
+
+    public function getEstVraie(): bool {
+        return $this->estVraie;
+    }
+
     public function setId(int $id): void {
         $this->id = $id;
     }
