@@ -112,7 +112,7 @@ include 'navigation/nav.php'
 
         <div class="text-lines">
         <h2>Les Extrémités du Corps Humain et les Pôles Océaniques : <br> Une Comparaison Essentielle</h2>
-        <p class="line">Les pôles océaniques sont comme les extrémités du corps humain : <br>$ils régulent l’équilibre global. Ces zones critiques influencent les courants, les températures et la biodiversité, <br>tout comme les mains et pieds influencent la température corporelle et l’équilibre.</p>
+        <p class="line">Les pôles océaniques sont comme les extrémités du corps humain : <br>ils régulent l’équilibre global. Ces zones critiques influencent les courants, les températures et la biodiversité, <br>tout comme les mains et pieds influencent la température corporelle et l’équilibre.</p>
         </div>
 
     </div>
