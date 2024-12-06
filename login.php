@@ -3,6 +3,7 @@ session_start();
 $_SESSION['user'] = '';
 $_SESSION['scoreUser'] = '';
 include 'connection.php';
+var_dump($_SESSION);
 echo 'user : ' . $_SESSION['user'];
 ?>
 <!DOCTYPE html>
@@ -19,7 +20,7 @@ echo 'user : ' . $_SESSION['user'];
         <input type="submit" name="connection" value="Connexion">
     </form>
     <form action="deconnection.php" method="post">
-        <input type="submit" name="deconnection" value="Deconnexion">
+        <input type="submit" name="deconnection" value="Déconnexion">
     </form>
 </body>
 </html>
