@@ -1,6 +1,7 @@
 <?php
 session_start();
 include '../bdd.php';
+include '../navigation/nav.php';
 
 if (!isset($_SESSION['user'])) {
     // Redirection vers la page de login si l'utilisateur n'est pas connecté
@@ -92,8 +93,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
     <title>Quiz</title>
 </head>
 <body>
-    <h1>Bienvenue, <?= htmlspecialchars($_SESSION['user']); ?> !</h1>
-    <p>Score actuel : <?= $_SESSION['scoreUser']; ?></p>
+    <h1>Bienvenue !</h1> <!--<?php htmlspecialchars($_SESSION['user']); ?> -->
+    <!-- <p>Score actuel : <?php $_SESSION['scoreUser']; ?></p> -->
 
     <?php if (!empty($message)): ?>
         <p><?= htmlspecialchars($message); ?></p>

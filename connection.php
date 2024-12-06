@@ -2,7 +2,6 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 include 'bdd.php';
-session_start(); 
 
 if (isset($_POST['name'], $_POST['password'])) {
     $name = $_POST['name'];
