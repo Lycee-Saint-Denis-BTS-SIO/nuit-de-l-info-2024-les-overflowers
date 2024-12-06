@@ -14,7 +14,7 @@ echo 'user : ' . $_SESSION['user'];
     <title>Login</title>
 </head>
 <body>
-    <form action="login.php" method="post">
+    <form action="connection.php" method="post">
         <input type="text" name="name" placeholder="Nom d'utilisateur">
         <input type="password" name="password" placeholder="Mot de passe">
         <input type="submit" name="connection" value="Connexion">

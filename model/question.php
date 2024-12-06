@@ -4,10 +4,9 @@ class Question {
     private string $lib;
     private array $lesReponses; 
 
-    public function __construct(int $id, string $lib, array $lesReponses = []) {
+    public function __construct(int $id, string $lib) {
         $this->id = $id;
         $this->lib = $lib;
-        $this->lesReponses = $lesReponses;
     }
 
     public function getId(): int {
@@ -28,16 +27,6 @@ class Question {
 
     public function setLib(string $lib): void {
         $this->lib = $lib;
-    }
-
-    public function ajouterReponse(Reponse $reponse): void {
-        $this->lesReponses[] = $reponse;
-    }
-
-    public function supprimerReponse(Reponse $reponse): void {
-        $this->lesReponses = array_filter($this->lesReponses, function($r) use ($reponse) {
-            return $r !== $reponse;
-        });
     }
 }
 ?>

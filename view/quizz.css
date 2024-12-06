@@ -1,0 +1,5 @@
+.bouton_envoyer, .bouton_retry, .bouton_deconnexion{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
