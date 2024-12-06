@@ -78,7 +78,7 @@
     </style>
 </head>
 <body>
-<img src="https://i.ibb.co/xY2Yjpf/logo.png" alt="logo" />    
+<a href="../templates/cookie.php"><img src="https://i.ibb.co/xY2Yjpf/logo.png" alt="logo" /></a>  
 
     <div class="navBar">
          <a href="../index.php"><h3>Accueil</h3></a>

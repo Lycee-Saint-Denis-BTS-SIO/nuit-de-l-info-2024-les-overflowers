@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clicker Game</title>
-  <link href="CSS/styles.css" rel="stylesheet">
+  <link href="../CSS/styles.css" rel="stylesheet">
 </head>
 <body>
 
@@ -12,7 +12,7 @@
   <p>Euro: <span id="money">0</span></p>
 
   <div id="clickerContainer">
-    <img src="templates/logoNuitdelInfo.jpg" alt="Cookie" id="cookie" onclick="clickCookie()">
+    <img src="logoNuitdelInfo.jpg" alt="Cookie" id="cookie" onclick="clickCookie()">
   </div>
 
   <div id="shopContainer">
@@ -24,6 +24,6 @@
     <br><br>
     <button onclick="resetClicker()">Reset</button>
   </div>
-  <script src="JS/interraction.js"></script>
+  <script src="../JS/interraction.js"></script>
 </body>
 </html>
