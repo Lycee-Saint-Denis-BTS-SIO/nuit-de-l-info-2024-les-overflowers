@@ -1,3 +1,7 @@
+<?php
+include 'navigation/nav.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +13,6 @@
 <body>
     <!-- Credits Section -->
     <div class="credits-container">
-        <h2>Credits Les Overflowers</h2>
         <ul class="credits-list">
           <li>
             <img src="/images/utilisateur.png" alt="Person 1" class="profile-pic">

@@ -84,6 +84,7 @@
          <a href="../index.php"><h3>Accueil</h3></a>
         <a href="../view/index.php"><h3>Quizz</h3></a>
         <a href="../login.php"><h3 >Espace Connexion</h3></a>
+        <a href="../PageCredit.php"><h3 >Crédits</h3></a>
     </div>
 </body>
 </html>
