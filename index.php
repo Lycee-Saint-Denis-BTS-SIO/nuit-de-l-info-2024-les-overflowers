@@ -54,7 +54,7 @@ include 'navigation/nav.php'
     <div class="card">
         <div class="card-inner">
             <div class="card-front">
-                <img src="../NuitInfo/images/imgFond.jpg" alt="" srcset="">
+                <img src="images/imgFond.jpg" alt="" srcset="">
             </div>
             <div class="card-back">
                 <a href="#animated-text""><p>L'océan est la source de vie. Apprenez-en plus sur son rôle crucial pour la planète.</p></a>
@@ -67,7 +67,7 @@ include 'navigation/nav.php'
     <div class="card">
         <div class="card-inner">
             <div class="card-front">
-                <img src="./images/imgOcean.jpg" alt="" srcset="">
+                <img src="images/imgOcean.jpg" alt="" srcset="">
             </div>
             <div class="card-back">
                <a href="#animated-text2"> <p>
@@ -131,7 +131,7 @@ include 'navigation/nav.php'
         <div class="seaweed seaweed4"></div>
         <div class="seaweed seaweed5"></div>
 
-        <img id="lyrecoLogo" src="Lyreco_Logotype_RGB_positive.png" alt="Lyreco">
+        <img id="lyrecoLogo" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Lyreco_Logotype_RGB_positive.png" alt="Lyreco" width="25" height="25">
  
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
  
